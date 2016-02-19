@@ -34,6 +34,11 @@ ALIGN=alignments/alignments.txt
 
 #--------------------
 
+# create registry directory
+mkdir -p $REGISTRY
+
+#--------------------
+
 # encode source texts
 mkdir -p $OUTST
 rm $REGISTRY/$STRNAME
