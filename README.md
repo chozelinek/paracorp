@@ -2,7 +2,7 @@ ParaCorp is a collection of notes on how to build and process parallel corpora.
 
 # Contents
 
-1. How to import alignments into CWB
+1. [How to import alignments into CWB](how-to-import-alignments-into-cwb.Rmd)
 
 # TO DO
 

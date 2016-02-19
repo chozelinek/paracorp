@@ -29,12 +29,15 @@ Limitations of CWB alignment data model:
 
 Study `cwb-align-import.sh` for a full minimal working example and reuse it at pleasure.
 
-1. [Download](https://github.com/chozelinek/paracorp/archive/master.zip) the materials and unzip them, or clone the repository `git clone https://github.com/chozelinek/paracorp.git`.
-1. Run `cwb-align-import.sh`:
+1. [Download](https://github.com/chozelinek/paracorp/archive/master.zip) the materials and unzip them, or clone the repository:
+```bash
+git clone https://github.com/chozelinek/paracorp.git
+```
+2. Run `cwb-align-import.sh`:
 ```bash
 sh cwb-align-import.sh
 ```
-1. Test the results by:
+3. Test the results by:
 ```bash
 cqp -e -r registry;
 EXAMPLE-ST;
