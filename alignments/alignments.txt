@@ -1,0 +1,10 @@
+ep1_st_s_0	ep1_tr154_s_0
+ep1_st_s_1	ep1_tr154_s_1
+ep1_st_s_2	ep1_tr154_s_2
+ep1_st_s_3	ep1_tr154_s_3 ep1_tr154_s_4
+ep1_st_s_4 ep1_st_s_5	ep1_tr154_s_5
+ep1_st_s_6 ep1_st_s_7	ep1_tr154_s_6
+	ep1_tr154_s_7
+ep1_st_s_9	
+ep1_st_s_10 ep1_st_s_11	ep1_tr154_s_9
+ep1_st_s_12	ep1_tr154_s_10

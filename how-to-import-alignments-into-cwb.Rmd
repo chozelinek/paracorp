@@ -1,0 +1,44 @@
+---
+title: "HOW TO import alignments into CWB"
+author: "José Manuel Martínez Martínez"
+date: "19 February 2016"
+output:
+  html_document:
+    highlight: pygments
+---
+
+This is a brief tutorial on how to import the already existing alignment of two corpora into CWB.
+
+This tutorial has been tested in a Mac OS X Yosemite. It should work also on Linux.
+
+You need `cqp` installed (also `cwb-align-import`) to reproduce succesfully this tutorial.
+
+CWB provides a tool to import alignments called `cwb-align-import`.
+
+Get more information on its usage by:
+
+```bash
+man cwb-align-import
+```
+
+Limitations of CWB alignment data model:
+
+- it is only possible to add one type of aligment (only sentece alignment, word alignment)
+- but one can align several versions/corpora (English with German and Spanish)
+- aligned regions cannot be discontinuous <!-- explain this better, and provide examples -->
+
+Study `cwb-align-import.sh` for a full minimal working example and reuse it at pleasure.
+
+1. [Download](https://github.com/chozelinek/paracorp/archive/master.zip) the materials and unzip them, or clone the repository `git clone https://github.com/chozelinek/paracorp.git`.
+1. Run `cwb-align-import.sh`:
+```bash
+sh cwb-align-import.sh
+```
+1. Test the results by:
+```bash
+cqp -e -r registry;
+EXAMPLE-ST;
+show +s_id;
+show +example-tt;
+<s>[];
+```
