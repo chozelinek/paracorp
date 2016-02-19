@@ -27,7 +27,7 @@ Limitations of CWB alignment data model:
 
 - it is only possible to add one type of aligment (only sentece alignment, word alignment)
 - but one can align several versions/corpora (English with German and Spanish)
-- aligned regions cannot be discontinuous <!-- explain this better, and provide examples -->
+- aligned regions cannot be discontinuous
 
 Study `cwb-align-import.sh` for a full minimal working example and reuse it at pleasure.
 
