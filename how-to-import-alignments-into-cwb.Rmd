@@ -13,7 +13,7 @@ This is a brief tutorial on how to import the already existing alignment of two 
 
 This tutorial has been tested in a Mac OS X Yosemite. It should work also on Linux.
 
-You need `cqp` installed (also `cwb-align-import`) to reproduce succesfully this tutorial.
+You need `cqp` installed (also `cwb-align-import`) to successfully reproduce this tutorial.
 
 CWB provides a tool to import alignments called `cwb-align-import`.
 
